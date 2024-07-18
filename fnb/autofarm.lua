@@ -4,7 +4,7 @@ _G.Difficulty = "Hard"
 
 _G.Modifiers = { "FadeIn", }
 
-loadstring(game:HttpGet'https://raw.githubusercontent.com/stavratum/lua/fnb/main.lua')()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/TheLocalFurry/luau/main/fnb/main.lua')()
 
 local virtualUser = game:GetService'VirtualUser'
 local runService = game:GetService'RunService'
