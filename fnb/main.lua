@@ -1,5 +1,5 @@
 local function import(s)
-    return loadstring(game:HttpGet( ("https://raw.githubusercontent.com/TheLocalFurry/luau/%s.lua"):format(s) ))()
+    return loadstring(game:HttpGet( ("https://raw.githubusercontent.com/TheLocalFurry/luau/main/%s.lua"):format(s) ))()
 end
 
 import("fnb/hooks")
