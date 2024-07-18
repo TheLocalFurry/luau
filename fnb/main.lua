@@ -1,11 +1,11 @@
-local function import(s)
-    return loadstring(game:HttpGet( ("https://raw.githubusercontent.com/TheLocalFurry/luau/main/%s.lua"):format(s) ))()
-end
+--local function import(s)
+--    return loadstring(game:HttpGet( ("https://raw.githubusercontent.com/TheLocalFurry/luau/main/%s.lua"):format(s) ))()
+--end
 
-import("fnb/hooks")
-local Connections = import("Connections")
-local Util = import("fnb/util")
-local UwUware = import("fnb/uwuware")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheLocalFurry/luau/main/fnb/hooks.lua"))()
+local Connections = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheLocalFurry/luau/main/fnb/Connections.lua"))()
+local Util = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheLocalFurry/luau/main/fnb/util.lua"))()
+local UwUware = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheLocalFurry/luau/main/fnb/uwuware.lua"))()
 
 local Flags = UwUware.flags
 local Chances = {
